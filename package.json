@@ -1,16 +1,18 @@
 {
-  "name": "nodejs-glitch",
-  "version": "1.0.0",
-  "description": "glitch",
+  "name": "nodejs-argo",
+  "version": "8.8.8",
+  "description": "Thsi is a node project",
   "main": "index.js",
-  "author": "admin",
+  "author": "eooce",
+  "repository": "https://github.com/eooce/nodejs-argo",
   "license": "MIT",
   "private": false,
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "axios": "latest"
+    "axios": "latest",
+    "express": "^4.18.2"
   },
   "engines": {
     "node": ">=14"
